@@ -7,7 +7,7 @@ eureka:
 ---
 spring:
   profiles: subject
-words: Eu,VocÊ
+words: I,You,He,She,It,They,We
 
 ---
 spring:
