@@ -1,4 +1,29 @@
 ---
-lab:
-  code: Lab-9
-  name: Last handson
+spring:
+  profiles: subject
+words: I,You,He,She,It,They,We
+
+---
+spring:
+  profiles: adjective
+words: reasonable,leaky,suspicious,ordinary,unlikely
+
+---
+spring:
+  profiles: article
+words: a,the
+
+---
+spring:
+  profiles: noun
+words: boat,book,vote,seat,backpack,partition,groundhog
+
+---
+spring:
+  profiles: verb
+words: ran,knew,had,saw,bought
+
+---
+spring:
+  profiles: noun
+words: icicle,refrigerator,blizzard,snowball
