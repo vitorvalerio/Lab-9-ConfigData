@@ -1,4 +1,10 @@
 ---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
+
+---
 spring:
   profiles: subject
 words: I,You,He,She,It,They,We
@@ -25,5 +31,5 @@ words: ran,knew,had,saw,bought
 
 ---
 spring:
-  profiles: noun
+  profiles: cold-noun
 words: icicle,refrigerator,blizzard,snowball
